@@ -1,0 +1,1 @@
+is needed for this game to be functional the instalation of NUMPY and PYGAMES both via CMD. 
