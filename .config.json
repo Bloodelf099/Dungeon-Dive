@@ -1,0 +1,103 @@
+{
+    "KEY_COOLDOWN": 0.3,
+
+    "FPS": 30,
+    "MOVE_SPEED": 5.0,
+
+    "TRAP_SPACING_MIN_MAX": [5, 7],
+
+    "LEVELS": {
+        "Menu": {
+            "maze": "menu"
+        },
+
+        "Nível 1": {
+            "maze": null,
+            "dimensions": [5, 9]
+        },
+
+        "Nível 2": {
+            "maze": null,
+            "dimensions": [7, 11],
+
+            "traps": {
+                "cooldown": 2.9,
+                "duration": 1.0
+            },
+
+            "villagers": {
+                "percentage": 1.0
+            }
+        },
+
+        "Nível 3": {
+            "maze": null,
+            "dimensions": [9, 13],
+
+            "traps": {
+                "cooldown": 2.8,
+                "duration": 1.2
+            },
+
+            "villagers": {
+                "percentage": 0.9
+            }
+        },
+
+        "Nível 4": {
+            "maze": null,
+            "dimensions": [11, 17],
+
+            "traps": {
+                "cooldown": 2.7,
+                "duration": 1.4
+            },
+
+            "villagers": {
+                "percentage": 0.9
+            }
+        },
+
+        "Nível 5": {
+            "maze": null,
+            "dimensions": [13, 21],
+
+            "traps": {
+                "cooldown": 2.6,
+                "duration": 1.6
+            },
+
+            "villagers": {
+                "percentage": 0.9
+            }
+        },
+
+        "Nível 6": {
+            "maze": null,
+            "dimensions": [15, 25],
+
+            "traps": {
+                "cooldown": 2.5,
+                "duration": 1.8
+            },
+
+            "villagers": {
+                "percentage": 0.8
+            }
+        },
+
+        "Final": {
+            "maze": "ending",
+
+            "traps": {
+                "cooldown": 2.4,
+                "duration": 2.0
+            },
+            "end_is_portal": true,
+
+            "villagers": {
+                "random": false
+            }
+        }
+    }
+}
