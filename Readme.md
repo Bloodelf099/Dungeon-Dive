@@ -21,4 +21,5 @@ Pygame - Um conjunto de módulos Python projetados para escrever videogames.
 Você pode instalar esses pacotes usando os seguintes comandos:
 
 pip install numpy
+
 pip install pygame
